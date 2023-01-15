@@ -13,6 +13,7 @@ body{
     height: 350px;
     padding: 20px;
     opacity: 0.9;
+    margin: 50px;
 }
 
 header {
@@ -21,4 +22,35 @@ header {
     border-radius: 20px;
     opacity: 0.9;
     
+}
+
+th {
+    font-size: 22px;
+    padding: 2px;
+    text-align: center;
+}
+
+td{
+    padding: 3px;
+}
+
+.button{
+    background-color: white;
+    color: limegreen;
+    margin: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: lime;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fas {
+    color: limegreen;
+    margin-left: 1400px;
+    font-size: larger;
+    text-align: right;
+}
+
+.far {
+    padding-right: 15px;
 }
