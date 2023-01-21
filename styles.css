@@ -3,54 +3,68 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
     color: white;
 }
 .card{
     background-color: limegreen;
     border-radius: 20px;
-    width: 250px;
-    height: 350px;
-    padding: 20px;
+    width: 300px;
+    height: 420px;
     opacity: 0.9;
     margin: 50px;
 }
 
 header {
-    background-color: limegreen;
+    background-image: radial-gradient(limegreen, rgb(25, 110, 25));
     text-align: center;
     border-radius: 20px;
     opacity: 0.9;
     
 }
 
-th {
+.heading {
+    background-image: radial-gradient(limegreen, rgb(25, 110, 25));
+    border-radius: 10px;
     font-size: 22px;
-    padding: 2px;
+    padding: 10px;
     text-align: center;
-}
-
-td{
-    padding: 3px;
+    margin: 0%;
+    font-weight: 550;
+    
 }
 
 .button{
     background-color: white;
     color: limegreen;
-    margin: 3px;
+    margin-left: 7%;
     border-radius: 5px;
+    border-color: limegreen;
     font-weight: bold;
-    border-color: lime;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+} 
+
+.button:hover {
+    background-color: rgb(25, 110, 25);
+    color: white;
 }
 
 .fas {
     color: limegreen;
     margin-left: 1400px;
-    font-size: larger;
-    text-align: right;
+    font-size:50px;
+    
 }
 
 .far {
     padding-right: 15px;
+    cursor: pointer;
+}
+
+table{
+    margin-left: 12%;
+    font-size: larger;
 }
